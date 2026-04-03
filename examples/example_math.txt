@@ -1,0 +1,12 @@
+Problem: Find all real solutions to the equation x^3 - 6x^2 + 11x - 6 = 0
+
+Additional context:
+- Show your work step by step
+- Verify all solutions
+- Factor the polynomial if possible
+
+Expected approach:
+1. Try to find rational roots using the rational root theorem
+2. Factor the polynomial
+3. Solve for all roots
+4. Verify each solution by substitution

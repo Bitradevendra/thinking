@@ -1,0 +1,44 @@
+# 🏠 HOW TO USE LOCAL MODEL (Llama.cpp)
+
+You can now use your own local model instead of the paid DeepSeek API!
+
+## 1. Start your Local Model Server
+
+You need to run `llama.cpp` in **server mode**.
+
+**Command Example:**
+```powershell
+# Run this in a separate terminal where your llama.cpp is installed
+./server.exe -m your_model.gguf -c 8192 --port 8080 --host 0.0.0.0
+```
+
+**Key Arguments:**
+- `-m`: Path to your model file (.gguf)
+- `-c 8192`: Context size (Recommended 8k or higher for this task)
+- `--port 8080`: Must match the config (default 8080)
+
+## 2. Restart the Web Server
+
+1. Stop the current reasoning server (Ctrl+C).
+2. Start it again:
+   ```powershell
+   python web_server.py
+   ```
+
+## 3. Watch the Logs
+
+When starting, you should see:
+```
+✅ LOCAL LLM DETECTED at http://localhost:8080/v1/chat/completions
+   Switching to Local Mode (No API costs!)
+```
+
+## 4. Run your Analysis
+
+Go to the Web UI and start the reasoning. It will now use your local CPU/GPU!
+
+---
+
+**Troubleshooting:**
+- **"Local LLM not not detected"**: Make sure your llama.cpp server is running and accessible at `http://localhost:8080`.
+- **"Context Truncated"**: Local models have smaller context limits. The system automatically truncates to 20k chars, but if your model only supports 4k, you might see errors. Use `-c 8192` or higher.

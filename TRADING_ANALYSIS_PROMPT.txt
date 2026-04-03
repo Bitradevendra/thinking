@@ -1,0 +1,319 @@
+# ULTIMATE TRADING PATTERN DISCOVERY - DEEP ANALYSIS PROMPT
+
+## OBJECTIVE:
+Analyze the provided trading chart data files and discover NEW, unconventional patterns that lead to maximum success rates in trading. Find patterns that are NOT commonly known in the trading community. Everything is possible - use your extreme analytical skills to uncover hidden mathematical relationships and patterns.
+
+## PRIMARY MISSION:
+Develop pure mathematical formulas (NOT code) that can predict 40-60 point candle movements with ultimate success rate. These formulas should integrate ALL discovered patterns and their linkages to determine BUY, SELL, or WAIT decisions.
+
+---
+
+## RESEARCH QUESTIONS TO ANSWER:
+
+### 1. CANDLE SHIFTING PATTERNS:
+- When does maximum candle shifting occur? (time of day, market conditions)
+- What triggers these shifts?
+- Pattern recognition for shift prediction
+
+### 2. "3-CANDLE BOX" ANALYSIS (15-minute timeframe):
+- Analyze first 5 candles (75 minutes total) behavior
+- Mathematical analysis: price ranges, volatility, volume patterns
+- Human psychology analysis: market sentiment, trader behavior patterns
+- How do these first 5 candles affect the NEXT 3 candles (45 minutes)?
+- Probability distributions and correlation coefficients
+
+### 3. DAILY SIGNAL PATTERNS:
+- How many 3-candle formations appear as BUY signals per day?
+- How many 3-candle formations appear as SELL signals per day?
+- Success rate of each pattern type
+- Optimal timing for each pattern
+
+### 4. PERFECT 60-POINT CONDITIONS:
+- What conditions lead to 60-point movements?
+- Entry and exit timing for maximum profit
+- Risk-reward ratios
+
+### 5. FAIR GAPS ANALYSIS:
+- Analyze fair gaps using candle bodies
+- Analyze fair gaps using candle wicks/sticks
+- Gap-fill probability patterns
+- Gap size vs. subsequent price movement correlation
+
+### 6. INDICATOR VARIABLE VALUES:
+- Apply 6 variable indicator values to the data
+- Analyze how each indicator's OUTPUT values affect price patterns
+- Cross-correlation between indicator values
+- Optimal indicator combinations for different market conditions
+
+---
+
+## COMPREHENSIVE CANDLE ANALYSIS:
+
+### A. CANDLE STRUCTURE ANALYSIS:
+For EACH candle in EACH timeframe, analyze:
+
+1. **Candle Body Length:**
+   - Absolute body length
+   - Body length relative to previous candles (average)
+   - Body length percentile in dataset
+   - Body length vs. subsequent candle correlation
+
+2. **Candle Wick/Stick Length:**
+   - Upper wick length
+   - Lower wick length
+   - Total wick length
+   - Wick-to-body ratio
+   - Wick patterns and their predictive power
+
+3. **Fair Gaps Using Bodies:**
+   - Gap between current body and previous body
+   - Gap size distribution
+   - Gap direction (up/down) patterns
+
+4. **Fair Gaps Using Wicks:**
+   - Gap between wicks
+   - Wick overlap analysis
+   - Shadow patterns
+
+5. **Volume Analysis:**
+   - Green volume steps to form candle
+   - Red volume steps to form candle
+   - Volume step patterns vs. previous candles
+   - Volume-price relationship patterns
+   - Volume accumulation/distribution patterns
+
+6. **Previous Candle Averages:**
+   - Moving average of previous N candles (body, wicks, volume)
+   - How these averages affect next candle formation
+   - Deviation from averages as signals
+
+---
+
+## PATTERN DISCOVERY REQUIREMENTS:
+
+### 1. INDIVIDUAL PATTERNS:
+Find patterns in:
+- Candle formations (single, pairs, triplets, sequences)
+- Volume behavior
+- Price levels and support/resistance
+- Time-of-day patterns
+- Day-of-week patterns
+- Indicator value combinations
+
+### 2. PATTERN LINKAGES:
+For EVERY discovered pattern, find linkages to:
+- Other candle patterns
+- Volume patterns
+- Indicator patterns
+- Time patterns
+- Market condition patterns
+
+### 3. MULTI-DIMENSIONAL LINKAGES:
+Connect patterns across:
+- Different timeframes (1min, 5min, 15min, 1hr, daily)
+- Different indicators
+- Different market conditions
+- Different volatility levels
+- Different volume profiles
+
+### 4. PATTERN OF PATTERNS:
+Discover meta-patterns:
+- How pattern combinations relate to each other
+- Pattern sequences that lead to high-probability moves
+- Pattern hierarchies and dependencies
+- Pattern evolution over time
+
+---
+
+## UT BOT SCRIPT ANALYSIS:
+
+Analyze the provided UT Bot script:
+1. Observe its behavior on the historical data
+2. Identify when it succeeds and when it fails
+3. Find patterns in its success/failure cases
+4. Discover what additional factors could improve its accuracy
+5. Integrate UT Bot signals with other discovered patterns
+
+---
+
+## INPUT-OUTPUT ANALYSIS:
+
+### Identify ALL possible inputs:
+1. Price data (OHLC)
+2. Volume data
+3. Time data (minute, hour, day, week)
+4. Indicator values (all 6 indicators' outputs)
+5. Candle body measurements
+6. Candle wick measurements
+7. Gap measurements
+8. Previous candle statistics
+9. Market volatility measures
+10. Trend identification metrics
+11. Support/resistance levels
+12. Any other minute-level inputs affecting candles
+
+### For EACH input:
+- Analyze how it affects the next candle
+- Find correlation coefficients
+- Identify threshold values for significance
+- Discover non-linear relationships
+- Find interaction effects between multiple inputs
+
+---
+
+## MATHEMATICAL FORMULA DEVELOPMENT:
+
+Create comprehensive mathematical formulas that:
+
+### 1. PREDICTION FORMULAS:
+```
+Formula 1: Next Candle Direction Probability
+P(direction) = f(input₁, input₂, ..., inputₙ, pattern₁, pattern₂, ..., patternₘ)
+
+Formula 2: Price Movement Magnitude
+ΔPrice = g(volume_pattern, candle_structure, indicator_values, ...)
+
+Formula 3: 40-60 Point Movement Probability
+P(40-60_pts) = h(all_inputs, all_patterns, all_linkages)
+```
+
+### 2. SIGNAL GENERATION FORMULAS:
+```
+BUY Signal Score = f₁(formulas, patterns, linkages)
+SELL Signal Score = f₂(formulas, patterns, linkages)
+WAIT Signal Score = f₃(formulas, patterns, linkages)
+
+Decision = argmax(BUY_Score, SELL_Score, WAIT_Score)
+```
+
+### 3. PATTERN STRENGTH FORMULAS:
+For each discovered pattern, create:
+- Confidence score formula
+- Success rate prediction formula
+- Optimal entry/exit timing formula
+- Risk-reward ratio formula
+
+---
+
+## LINKAGE ANALYSIS REQUIREMENTS:
+
+### Level 1: Direct Linkages
+- Input A → Pattern B
+- Pattern B → Outcome C
+- Indicator D → Price Movement E
+
+### Level 2: Second-Order Linkages
+- (Pattern A + Pattern B) → Enhanced Prediction
+- (Input A + Input B) → New Pattern C
+- (Indicator A + Candle Pattern B) → Signal C
+
+### Level 3: Multi-Order Linkages
+- Connect ALL possible combinations
+- Find synergistic effects
+- Discover emergent patterns from combinations
+- Build comprehensive relationship network
+
+### Level 4: Meta-Linkages
+- Patterns of linkages
+- When certain linkages strengthen/weaken
+- Conditional linkage activation
+- Linkage evolution over market conditions
+
+---
+
+## ULTIMATE SUCCESS RATE FORMULA:
+
+Develop the MASTER FORMULA that integrates:
+- ALL discovered patterns
+- ALL pattern linkages  
+- ALL input relationships
+- ALL timeframe correlations
+- ALL indicator interactions
+- ALL market condition factors
+
+This formula should output:
+1. **Action**: BUY / SELL / WAIT
+2. **Confidence**: 0-100%
+3. **Expected Points**: 40-60 range prediction
+4. **Entry Price**: Optimal entry level
+5. **Exit Price**: Optimal exit level (40-60 points profit)
+6. **Stop Loss**: Risk management level
+7. **Time Horizon**: Expected duration for target
+
+---
+
+## DELIVERABLES REQUIRED:
+
+1. **Complete Pattern Catalog:**
+   - Name each pattern
+   - Mathematical definition
+   - Success rate from data
+   - When to use it
+   - Linkages to other patterns
+
+2. **Comprehensive Formula Set:**
+   - Pure mathematics (NO code)
+   - Clear variable definitions
+   - Calculation steps
+   - Integration methods
+   - Decision thresholds
+
+3. **Pattern Linkage Map:**
+   - Visual/mathematical representation
+   - Strength of each linkage
+   - Conditional activation rules
+   - Prioritization hierarchy
+
+4. **Ultimate Trading Formula:**
+   - Single master formula integrating everything
+   - Clear input requirements
+   - Step-by-step calculation process
+   - Interpretation guidelines
+   - Confidence calibration
+
+5. **Validation Results:**
+   - Back-test the formulas on provided data
+   - Show success rate for different conditions
+   - Demonstrate 40-60 point prediction accuracy
+   - Compare to UT Bot performance
+
+---
+
+## ANALYSIS APPROACH:
+
+1. **Think Outside the Box:**
+   - Don't limit to known technical analysis
+   - Consider psychological patterns
+   - Find mathematical relationships not commonly explored
+   - Discover hidden correlations
+
+2. **Deep Analysis:**
+   - Examine every aspect thoroughly
+   - Question every assumption
+   - Test every hypothesis
+   - Validate every pattern
+
+3. **Interconnected Thinking:**
+   - Everything affects everything
+   - Find non-obvious connections
+   - Build holistic understanding
+   - Create comprehensive model
+
+4. **Maximum Iterations:**
+   - Use ALL 1800 iterations (30 minutes)
+   - Explore every branch deeply
+   - Don't stop at first patterns
+   - Find the BEST patterns
+
+---
+
+## REMEMBER:
+
+- **Everything is possible** - approach with belief in discovery
+- **New patterns exist** - don't accept "it's all been found"
+- **Math reveals truth** - build formulas from observations
+- **Linkages create power** - combinations outperform individuals
+- **Success rate is achievable** - with deep enough analysis
+- **40-60 point targets are predictable** - with right formulas
+
+**THINK DEEPLY. ANALYZE COMPLETELY. DISCOVER UNIQUELY. DELIVER MATHEMATICAL EXCELLENCE.**

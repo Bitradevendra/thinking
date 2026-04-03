@@ -1,0 +1,76 @@
+ULTIMATE TRADING PATTERN DISCOVERY - Deep Analysis Request
+
+OBJECTIVE: Analyze all provided trading data files to discover NEW, unconventional patterns (not commonly known) that achieve maximum success rate for predicting 40-60 point candle movements. Develop pure mathematical formulas (NOT code) integrating ALL patterns for BUY/SELL/WAIT decisions.
+
+CRITICAL RESEARCH QUESTIONS:
+
+1. CANDLE SHIFTING: When does max candle shifting occur? What triggers it? Pattern recognition for prediction.
+
+2. "3-CANDLE BOX" ANALYSIS (15-min timeframe): Analyze first 5 candles (75 min) behavior - mathematically AND psychologically. How do they affect NEXT 3 candles? Find probability distributions and correlations.
+
+3. DAILY SIGNALS: Count 3-candle BUY/SELL signal formations per day. Calculate success rates. Find optimal timing.
+
+4. PERFECT 60-POINT CONDITIONS: What conditions lead to 60-point movements? Entry/exit timing for max profit.
+
+5. FAIR GAPS: Analyze gaps using candle bodies AND wicks separately. Gap-fill probability patterns. Gap size vs. price movement correlation.
+
+6. INDICATOR VARIABLES: Apply 6 indicator OUTPUT values to data. Analyze how each affects patterns. Find cross-correlations and optimal combinations.
+
+COMPREHENSIVE CANDLE ANALYSIS (for EACH candle in EACH timeframe):
+- Body length (absolute, relative, percentile, correlation to next candle)
+- Wick lengths (upper, lower, total, ratios, patterns)
+- Fair gaps (body-based and wick-based)
+- Volume steps (green/red volume patterns, relation to previous candles)
+- Previous candle averages and how they affect next candle
+- Candle formation speed and step patterns
+
+PATTERN DISCOVERY REQUIREMENTS:
+
+1. Find patterns in: candle formations, volume, price levels, time-of-day, day-of-week, indicator combinations
+2. For EVERY pattern found, discover linkages to: other candle patterns, volume patterns, indicator patterns, time patterns, market conditions
+3. Multi-dimensional linkages across: different timeframes (1m, 5m, 15m, 1h, daily), indicators, volatility levels, volume profiles
+4. Meta-patterns: How pattern combinations relate, pattern sequences for high-probability moves, pattern hierarchies
+
+UT BOT SCRIPT ANALYSIS: Observe behavior on data, identify success/failure patterns, find improvement factors, integrate with other patterns.
+
+INPUT-OUTPUT ANALYSIS:
+Identify ALL inputs (price OHLC, volume, time, 6 indicator values, candle measurements, gaps, previous stats, volatility, trends, support/resistance, minute-level factors). For EACH input: analyze effect on next candle, find correlations, thresholds, non-linear relationships, interaction effects.
+
+MATHEMATICAL FORMULAS TO DEVELOP:
+
+1. Next Candle Direction Probability: P(direction) = f(all inputs, all patterns, all linkages)
+2. Price Movement Magnitude: ΔPrice = g(volume_pattern, candle_structure, indicators...)
+3. 40-60 Point Movement Probability: P(40-60pts) = h(everything combined)
+4. Signal Scores: BUY_Score, SELL_Score, WAIT_Score formulas
+5. Decision Rule: argmax(BUY, SELL, WAIT)
+6. Pattern Strength: confidence, success rate, entry/exit timing, risk-reward for each pattern
+
+LINKAGE ANALYSIS (do ALL levels):
+- Level 1: Direct (Input→Pattern, Pattern→Outcome, Indicator→Movement)
+- Level 2: Second-order (Pattern A + B → Enhanced Prediction)
+- Level 3: Multi-order (ALL combinations, synergies, emergent patterns)
+- Level 4: Meta-linkages (patterns of linkages, conditional activation, evolution)
+
+ULTIMATE MASTER FORMULA must output:
+1. Action: BUY/SELL/WAIT
+2. Confidence: 0-100%
+3. Expected Points: 40-60 range prediction
+4. Entry Price, Exit Price, Stop Loss
+5. Time Horizon for target
+
+DELIVERABLES:
+1. Complete Pattern Catalog (name, math definition, success rate, usage, linkages)
+2. Comprehensive Formula Set (pure math, clear variables, calculation steps, thresholds)
+3. Pattern Linkage Map (strength, activation rules, hierarchy)
+4. Ultimate Trading Formula (master formula integrating everything)
+5. Validation Results (back-test on data, success rates, 40-60 point accuracy)
+
+APPROACH:
+- Think outside the box - consider psychology, find hidden correlations, discover uncommon relationships
+- Deep analysis - examine every aspect, question assumptions, validate patterns
+- Interconnected thinking - everything affects everything, build holistic model
+- Use ALL 1800 iterations - explore every branch deeply, find BEST patterns
+
+REMEMBER: Everything is possible. New patterns exist waiting to be discovered. Math reveals truth. Linkages create power. Success rate IS achievable with deep enough analysis. 40-60 point targets ARE predictable with the right formulas.
+
+ANALYZE ALL DATA FILES COMPLETELY. THINK DEEPLY. DISCOVER UNIQUELY. DELIVER MATHEMATICAL EXCELLENCE.

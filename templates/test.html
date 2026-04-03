@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quick Test - Deep Thinking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 10px;
+            font-size: 14px;
+            background: #2a2a2a;
+            color: #fff;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+
+        .info {
+            background: #333;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🧠 Deep Thinking - Quick Test</h1>
+
+    <div class="info">
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Paste your trading analysis prompt below</li>
+            <li>Click "TEST - Send Request"</li>
+            <li>Check the server terminal for debug output</li>
+            <li>See if the problem text is being received</li>
+        </ol>
+    </div>
+
+    <h3>Problem Text:</h3>
+    <textarea id="problemText" placeholder="Paste your ULTIMATE TRADING PATTERN DISCOVERY prompt here..."></textarea>
+
+    <div>
+        <label>Iterations: <input type="number" id="iterations" value="1800"
+                style="width: 100px; padding: 5px;"></label>
+    </div>
+
+    <button onclick="sendRequest()">TEST - Send Request</button>
+
+    <div id="result"></div>
+
+    <script>
+        async function sendRequest() {
+            const problem = document.getElementById('problemText').value;
+            const iterations = parseInt(document.getElementById('iterations').value);
+            const resultDiv = document.getElementById('result');
+
+            if (!problem || problem.trim().length === 0) {
+                resultDiv.innerHTML = '<span style="color: red;">ERROR: Please enter problem text!</span>';
+                return;
+            }
+
+            resultDiv.innerHTML = '<span style="color: yellow;">Sending request...</span>';
+
+            console.log('Sending problem text (length):', problem.length);
+            console.log('First 100 chars:', problem.substring(0, 100));
+
+            try {
+                const response = await fetch('/api/start', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        problem: problem,
+                        max_iterations: iterations,
+                        files: []
+                    })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    resultDiv.innerHTML = `<span style="color: lime;">✅ SUCCESS!</span>
+                    
+Session ID: ${data.session_id}
+Status: ${data.status}
+Session Dir: ${data.session_dir}
+
+Check the server terminal for debug output!
+Check browser console (F12) for sent data.`;
+                } else {
+                    resultDiv.innerHTML = `<span style="color: red;">❌ ERROR:</span> ${data.error}`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<span style="color: red;">❌ EXCEPTION:</span> ${error.message}`;
+            }
+        }
+    </script>
+</body>
+
+</html>
